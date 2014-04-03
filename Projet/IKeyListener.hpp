@@ -1,0 +1,10 @@
+#ifndef IKEYLISTENER_HPP_INCLUDED
+#define IKEYLISTENER_HPP_INCLUDED
+
+class IKeyListener {
+
+
+
+};
+
+#endif // IKEYLISTENER_HPP_INCLUDED

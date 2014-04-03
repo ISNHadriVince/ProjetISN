@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Projet" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Projet" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Projet" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="GameLoop.cpp" />
+		<Unit filename="GameLoop.h" />
+		<Unit filename="IKeyListener.cpp" />
+		<Unit filename="IKeyListener.hpp" />
+		<Unit filename="IRenderable.cpp" />
+		<Unit filename="IRenderable.h" />
+		<Unit filename="entity/Player.cpp" />
+		<Unit filename="entity/Player.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="utils/Numbers.cpp" />
+		<Unit filename="utils/Numbers.hpp" />
+		<Unit filename="worlds/Block.cpp" />
+		<Unit filename="worlds/Block.hpp" />
+		<Unit filename="worlds/Map.cpp" />
+		<Unit filename="worlds/Map.h" />
+		<Unit filename="worlds/MapLoader.cpp" />
+		<Unit filename="worlds/MapLoader.hpp" />
+		<Unit filename="worlds/TinyXML/tinystr.cpp" />
+		<Unit filename="worlds/TinyXML/tinystr.h" />
+		<Unit filename="worlds/TinyXML/tinyxml.cpp" />
+		<Unit filename="worlds/TinyXML/tinyxml.h" />
+		<Unit filename="worlds/TinyXML/tinyxmlerror.cpp" />
+		<Unit filename="worlds/TinyXML/tinyxmlparser.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+			<DoxyBlocks>
+				<comment_style block="0" line="0" />
+				<doxyfile_project />
+				<doxyfile_build />
+				<doxyfile_warnings />
+				<doxyfile_output />
+				<doxyfile_dot />
+				<general />
+			</DoxyBlocks>
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
